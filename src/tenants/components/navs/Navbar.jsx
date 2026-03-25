@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-green-600 text-black px-6 py-4 flex justify-between items-center shadow-md">
       {/* Logo */}
       <div className="text-xl font-bold tracking-wide cursor-pointer">
-        Tenant
+        Multi Tenant Nav
       </div>
 
       {/* Links */}

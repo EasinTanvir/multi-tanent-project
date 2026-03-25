@@ -1,10 +1,11 @@
-import NavWrapper from "@/components/NavWrapper";
+import Navbar from "@/components/Navbar";
+
 import React from "react";
 
 export default function RootLayout({ children }) {
   return (
     <React.Fragment>
-      <NavWrapper />
+      <Navbar />
       {children}
     </React.Fragment>
   );

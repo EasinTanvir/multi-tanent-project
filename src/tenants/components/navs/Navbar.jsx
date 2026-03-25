@@ -3,9 +3,11 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="bg-black text-white px-6 py-4 flex justify-between items-center shadow-md">
+    <nav className="bg-green-600 text-black px-6 py-4 flex justify-between items-center shadow-md">
       {/* Logo */}
-      <div className="text-xl font-bold tracking-wide cursor-pointer">Ten</div>
+      <div className="text-xl font-bold tracking-wide cursor-pointer">
+        Tenant
+      </div>
 
       {/* Links */}
       <div className="flex gap-6 text-sm font-medium">
